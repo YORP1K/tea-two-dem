@@ -1,0 +1,23 @@
+{
+  "name": "tea-two-dem",
+  "version": "1.0.0",
+  "description": "demonstration app 2.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YORP1K/tea-two-dem.git"
+  },
+  "dependencies": {
+    "tea-two-dem": "1.0.0",
+    "talksssys-tea": "1.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YORP1K/tea-two-dem/issues"
+  },
+  "homepage": "https://github.com/YORP1K/tea-two-dem#readme"
+}

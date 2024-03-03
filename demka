@@ -1,0 +1,17 @@
+// Helper function to check if a string is a palindrome
+function isPalindrome(str) {
+  // Remove non-alphanumeric characters and convert to lowercase
+  const cleanStr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
+  
+  // Compare the original string with its reverse
+  return cleanStr === cleanStr.split('').reverse().join('');
+}
+
+// Example usage of the helper function
+let string1 = "A man, a plan, a canal, Panama";
+let string2 = "racecar";
+let string3 = "hello";
+
+console.log("'" + string1 + "' is a palindrome: " + isPalindrome(string1));
+console.log("'" + string2 + "' is a palindrome: " + isPalindrome(string2));
+console.log("'" + string3 + "' is a palindrome: " + isPalindrome(string3));
